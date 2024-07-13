@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+  height: 20vh;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6),url(img/background.jpg));
+  background-size: cover;
+  background-position: center;
+  
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left:5% ;
+  padding-right: 5%;
+  border-right: 10px;
+  
+}
+.logo {
+  border-right: 20px;
+  color: white;
+  font-size: 20px;
+}
+span {
+  color: yellow;
+}
+nav ul li {
+  border-right: 10px;
+  list-style-type: none;
+  display: inline-block;
+  padding: 10px 20px;
+}
+nav ul li a {
+  
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover { 
+  color: yellow;
+  transition: 0.3s;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.profile-info {
+  margin-top: 20px;
+}
+
+.profile-info p {
+  margin-bottom: 5px;
+}
+
+.profile-info .label {
+  display: inline-block;
+  width: 120px;
+}
+
+.profile-info .value {
+  display: inline-block;
+  width: calc(100% - 120px);
+}
